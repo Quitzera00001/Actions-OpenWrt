@@ -20,10 +20,12 @@ on:
         default: 'false'
 #  schedule:
 #    - cron: 0 8 * * 5
+watch:
+  types: [stared]
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/1715173329/openwrt
+  REPO_BRANCH: 1806-k54-nanopi-r4s
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
